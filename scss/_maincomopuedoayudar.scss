@@ -1,6 +1,47 @@
+.paraimagenayudar{
+    position: relative;
+    height: 650px;
+    width: 100%;
+    background-image: url(../assets/img/como\ ayudar\ perrito.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+ 
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+
+  .h1ayudar {
+    font-size: 46px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
 .contenedor{
     margin-left: 5rem;
     margin-right: 5rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
+}
+.card-body1{
+    background-color: antiquewhite;
 }
