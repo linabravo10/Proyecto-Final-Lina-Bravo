@@ -1,0 +1,22 @@
+.principal{
+        background-image: url("../assets/img/group-portrait-adorable-puppies.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        .centrar{
+            text-align: center;
+    }
+    
+}
+
+.colorFondo{
+    text-align: center;
+    font-size: 2rem;
+    background-color: hotpink;
+    .icon{
+    color: black;
+    font-size: 35px;
+    align-items: center
+    ;
+}}

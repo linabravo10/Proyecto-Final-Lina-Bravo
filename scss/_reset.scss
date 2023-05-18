@@ -1,0 +1,29 @@
+
+html{
+    font-size: 62.5%;
+}
+/**Esto es para poder calcular los rem mas sencillos, y contarlos como 10px*/
+
+*{
+    margin: 0rem;
+    padding: 0;
+    
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 7rem;
+    text-align: center;
+}
+/**Esto es para seleccionar el color y el tamaño de la fuente de nuestro titulo principal**/
+
+h2{
+    font-size: 3rem;
+}
+/**Este para modificar nuestros subtitulos**/
+
+p{
+    font-size: 2rem;
+}
+/*este para modificar nuestros párrafos*/
+
