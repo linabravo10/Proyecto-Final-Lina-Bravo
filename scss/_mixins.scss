@@ -1,0 +1,16 @@
+@mixin izquierda{
+    background-repeat:$background-norepeat;
+    background-size:$background-size-cover;
+    background-position:$background-center;
+    height:$height50;
+}
+@mixin derecha{
+    height:$height50;
+    border: $border10-color;
+    background-color: $background-color-jornadas;
+    color:$colorblanco;
+    display:$display-flex;
+    flex-direction:$flex-direction-colimn;
+    align-items: $align-items-center;
+    justify-content: $justify-content-center
+}
