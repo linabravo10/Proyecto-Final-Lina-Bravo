@@ -1,8 +1,8 @@
 .izquierda{
     background-image:url("../assets/img/smiley-woman-playing-shelter-with-dog-waiting-be-adopted.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
+    background-repeat:$background-norepeat;
+    background-size:$background-size-cover;
+    background-position:$background-center;
     height:50vh;
 }
 .derecha{
