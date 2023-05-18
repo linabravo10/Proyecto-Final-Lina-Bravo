@@ -1,22 +1,74 @@
-.principal{
-        background-image: url("../assets/img/group-portrait-adorable-puppies.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        .centrar{
-            text-align: center;
-    }
-    
+.contenedormain {
+    position: relative;
+    text-align: center;
 }
 
-.colorFondo{
+.textomain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.h1main {
+    margin-top: 0;
+    color: antiquewhite;
+}
+
+.pmain {
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+
+.contenedormain img {
+    width: 100%;
+    height: auto;
+    filter: blur(1.5px);
+
+}
+
+
+.colorFondo {
     text-align: center;
     font-size: 2rem;
     background-color: hotpink;
-    .icon{
-    color: black;
-    font-size: 35px;
-    align-items: center
-    ;
-}}
+
+    .icon {
+        color: black;
+        font-size: 35px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Estilos para pantallas más pequeñas, como dispositivos móviles */
+    .textomain {
+        padding: 10px;
+        border-radius: 40px;
+        font-size: 16px;
+    }
+
+    .h1main {
+        margin-top: 0;
+        color: antiquewhite;
+        font-size: 2rem;
+    }
+
+    .pmain {
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Estilos para pantallas más pequeñas, como dispositivos móviles en modo retrato */
+    .texto {
+        font-size: 14px;
+    }
+}

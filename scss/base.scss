@@ -3,6 +3,8 @@
 @import "header.scss";
 @import "mainindex.scss";
 @import "maintestimonios";
+@import "mainjornadas";
+@import "maincomopuedoayudar";
 @import "footer.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
@@ -10,39 +12,8 @@
 
 
 
-.texto{
-    text-align: center;
-}
-
-.contenedor{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
 
 
-.listaordenada{
-    font-size: 2rem;
-
-}
-
-
-.testimonios {
-    margin-bottom:2rem
- 
-}
-
-.card-group{
-    column-gap: 10px;
-
-}
-
-.card-img-top{
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
-}
 
 .containermetas{
     text-align: center;
@@ -55,59 +26,6 @@
     font-size: 3rem;
 }
 
-.izquierda{
-    background-image:url("../assets/img/smiley-woman-playing-shelter-with-dog-waiting-be-adopted.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    height:50vh;
-}
-.derecha{
-    height:50vh;
-    border: 1px solid rgb(219, 177, 194);
-    background-color: rgb(221, 156, 181);
-    color:white;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-}
-
-.izquierda2{
-    background-image:url("../assets/img/jornadaacompanamiento.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    height:50vh;
-}
-.derecha2{
-    height:50vh;
-    border: 1px solid rgb(219, 177, 194);
-    background-color: rgb(221, 156, 181);
-    color:white;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-}
-
-.izquierda3{
-    background-image:url("../assets/img/jornadaalimentacion.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    height:50vh;
-}
-.derecha3{
-    height:50vh;
-    border: 1px solid rgb(219, 177, 194);
-    background-color: rgb(221, 156, 181);
-    color:white;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-}
 
 
 
