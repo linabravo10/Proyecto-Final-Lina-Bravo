@@ -3,8 +3,8 @@
     height: 650px;
     width: 100%;
     background-image: url(../assets/img/como\ ayudar\ perrito.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: $background-size-cover;
+    background-position: $background-center;
   }
   .overlay {
     position: absolute;
@@ -31,16 +31,16 @@
     color: rgb(255, 255, 255);
 
   }
-
+  
   p {
     font-size: 18px;
     margin-bottom: 30px;
   }
 .contenedor{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-left: $size5rem;
+    margin-right: $size5rem;
+    margin-top: $size5rem;
+    margin-bottom: $size5rem;
 }
 .card-body1{
     background-color: antiquewhite;
