@@ -5,6 +5,7 @@
 @import "maintestimonios";
 @import "mainjornadas";
 @import "maincomopuedoayudar";
+@import "maincontactanos";
 @import "footer.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
@@ -15,12 +16,6 @@
 
 
 
-.containermetas{
-    text-align: center;
-    font-size: 2rem;
-    background-color: hotpink;
-}
-
 .card-title{
     text-align: center;
     font-size: 3rem;
@@ -29,9 +24,6 @@
 
 
 
-.redes{
-    background-position: center;
-}
 
 .formulario{
     font-size: 2rem;

@@ -192,6 +192,54 @@ body {
   margin-bottom: 5rem;
 }
 
+.paraimagen {
+  position: relative;
+  height: 400px;
+  background-image: url(../assets/img/portadaperritos.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.h1contacto {
+  font-size: 46px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-info {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
 .derechosreservados {
   font-size: 1.5rem;
 }
@@ -202,19 +250,9 @@ body {
   font-size: 4rem;
 }
 
-.containermetas {
-  text-align: center;
-  font-size: 2rem;
-  background-color: hotpink;
-}
-
 .card-title {
   text-align: center;
   font-size: 3rem;
-}
-
-.redes {
-  background-position: center;
 }
 
 .formulario {
