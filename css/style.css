@@ -61,6 +61,21 @@ body {
   align-items: center;
 }
 
+.textotesti {
+  background-color: hotpink;
+  text-align: center;
+}
+
+.derechosreservados {
+  font-size: 1.5rem;
+}
+
+.piedepagina {
+  background-color: antiquewhite;
+  text-align: center;
+  font-size: 4rem;
+}
+
 .texto {
   text-align: center;
 }
@@ -74,10 +89,6 @@ body {
 
 .listaordenada {
   font-size: 2rem;
-}
-
-.derechosreservados {
-  font-size: 1.5rem;
 }
 
 .testimonios {
@@ -168,12 +179,6 @@ body {
 
 .formulario {
   font-size: 2rem;
-}
-
-.piedepagina {
-  background-color: antiquewhite;
-  text-align: center;
-  font-size: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */

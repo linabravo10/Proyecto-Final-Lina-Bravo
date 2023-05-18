@@ -2,7 +2,8 @@
 @import "generales.scss";
 @import "header.scss";
 @import "mainindex.scss";
-
+@import "maintestimonios";
+@import "footer.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
@@ -26,9 +27,6 @@
 
 }
 
-.derechosreservados{
-    font-size: 1.5rem;
-}
 
 .testimonios {
     margin-bottom:2rem
@@ -121,8 +119,3 @@
     font-size: 2rem;
 }
 
-.piedepagina{
-    background-color: antiquewhite;
-    text-align: center;
-    font-size: 4rem;
-}
