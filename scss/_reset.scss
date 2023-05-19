@@ -13,20 +13,20 @@ html{
 h1{
     color: rgb(0, 0, 0);
     font-size: 7rem;
-    text-align: center;
+    text-align: $text-align-center;
 }
 /**Esto es para seleccionar el color y el tamaño de la fuente de nuestro titulo principal**/
 
 h2{
-    font-size: 3rem;
+    font-size: $size3rem;
 }
 /**Este para modificar nuestros subtitulos**/
 
 p{
-    font-size: 2rem;
+    font-size: $size2rem;
 }
 /*este para modificar nuestros párrafos*/
 
 .texto{
-    text-align: center;
+    text-align: $text-align-center;
 }

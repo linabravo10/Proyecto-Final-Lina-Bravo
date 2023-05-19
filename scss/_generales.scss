@@ -5,10 +5,10 @@ body{
 }
 
 .btn {
-    background-color: hotpink;
+    background-color: $color-secundario;
     border-color: palevioletred;
   }
 .card-title{
-    text-align: center;
-    font-size: 3rem;
+    text-align: $text-align-center;
+    font-size: $size3rem;
 }

@@ -1,0 +1,318 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+/**Esto es para poder calcular los rem mas sencillos, y contarlos como 10px*/
+* {
+  margin: 0rem;
+  padding: 0;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 7rem;
+  text-align: center;
+}
+
+/**Esto es para seleccionar el color y el tamaño de la fuente de nuestro titulo principal**/
+h2 {
+  font-size: 3rem;
+}
+
+/**Este para modificar nuestros subtitulos**/
+p {
+  font-size: 2rem;
+}
+
+/*este para modificar nuestros párrafos*/
+.texto {
+  text-align: center;
+}
+
+body {
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.btn {
+  background-color: hotpink;
+  border-color: palevioletred;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.header {
+  background-color: antiquewhite;
+}
+.header .nav-item {
+  font-size: 2rem;
+}
+
+.contenedormain {
+  position: relative;
+  text-align: center;
+}
+.contenedormain .textomain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+.contenedormain .textomain .h1main {
+  margin-top: 0;
+  color: antiquewhite;
+}
+.contenedormain .textomain .h1main .pmain {
+  margin-bottom: 0;
+  font-size: 2.5rem;
+}
+.contenedormain .textomain .h1main .pmain .contenedormain img {
+  width: 100%;
+  height: auto;
+  filter: blur(1.5px);
+}
+.contenedormain .textomain .h1main .pmain .contenedormain img .colorFondo {
+  text-align: center;
+  font-size: 2rem;
+  background-color: hotpink;
+}
+.contenedormain .textomain .h1main .pmain .contenedormain img .colorFondo .icon {
+  color: black;
+  font-size: 35px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  /* Estilos para pantallas más pequeñas, como dispositivos móviles */
+  .textomain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    border-radius: 40px;
+    font-size: 16px;
+  }
+  .h1main {
+    margin-top: 0;
+    color: antiquewhite;
+    font-size: 2rem;
+  }
+  .pmain {
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .textomain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 10px;
+  }
+  .textomain .h1main {
+    margin-top: 0;
+    color: antiquewhite;
+    font-size: 2rem;
+  }
+  .textomain .h1main .pmain {
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+  .textomain .h1main .pmain .textomain {
+    font-size: 14px;
+  }
+}
+.textotesti {
+  background-color: hotpink;
+  text-align: center;
+}
+.textotesti .testimonios {
+  margin-bottom: 2rem;
+}
+.textotesti .card-group {
+  column-gap: 10px;
+}
+.textotesti .card-img-top {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.izquierda {
+  background-image: url("../assets/img/smiley-woman-playing-shelter-with-dog-waiting-be-adopted.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.derecha {
+  height: 50vh;
+  border: 10px solid rgb(219, 177, 194);
+  background-color: rgb(221, 156, 181);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.izquierda2 {
+  background-image: url("../assets/img/jornadaacompanamiento.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.derecha2 {
+  height: 50vh;
+  border: 10px solid rgb(219, 177, 194);
+  background-color: rgb(221, 156, 181);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.izquierda3 {
+  background-image: url("../assets/img/jornadaalimentacion.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.derecha3 {
+  height: 50vh;
+  border: 10px solid rgb(219, 177, 194);
+  background-color: rgb(221, 156, 181);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.paraimagenayudar {
+  background-image: url(../assets/img/como\ ayudar\ perrito.jpg);
+  position: relative;
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.paraimagenayudar .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.paraimagenayudar .overlay .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.paraimagenayudar .overlay .h1ayudar {
+  font-size: 46px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+.paraimagenayudar .overlay p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.paraimagenayudar .contenedor {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.paraimagenayudar .card-body1 {
+  background-color: antiquewhite;
+}
+
+.paraimagen {
+  background-image: url(../assets/img/portadaperritos.jpg);
+  position: relative;
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.h1contacto {
+  font-size: 46px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+.contact-info {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.derechosreservados {
+  font-size: 1.5rem;
+}
+.derechosreservados .piedepagina {
+  background-color: antiquewhite;
+  text-align: center;
+  font-size: 4rem;
+}/*# sourceMappingURL=base.css.map */

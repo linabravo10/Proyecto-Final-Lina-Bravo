@@ -1,15 +1,14 @@
 .textotesti {
     background-color:$color-secundario;
     text-align: $text-align-center;
+        .testimonios {
+            margin-bottom: 2rem
+}           .card-group {
+                column-gap: 10px;
 }
-.testimonios {
-    margin-bottom: 2rem
+                .card-img-top {
+                    width: 100%;
+                    height: 50%;
+                    object-fit: cover;
 }
-.card-group {
-    column-gap: 10px;
-}
-.card-img-top {
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
 }

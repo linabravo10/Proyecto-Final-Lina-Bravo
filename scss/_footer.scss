@@ -1,9 +1,9 @@
 .derechosreservados{
     font-size: 1.5rem;
-}
-.piedepagina{
-    background-color: antiquewhite;
-    text-align: center;
-    font-size: 4rem;
+    .piedepagina{
+        background-color: $principal-color;
+        text-align: $text-align-center;
+        font-size: $size4rem;
 }
 
+}

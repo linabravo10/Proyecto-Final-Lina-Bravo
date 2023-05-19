@@ -14,3 +14,39 @@
     align-items: $align-items-center;
     justify-content: $justify-content-center
 }
+
+@mixin paraimagen{
+    position: $position-relative;
+    height: 650px;
+    width: 100%;
+    background-size: $background-size-cover;
+    background-position: $background-center;
+}
+
+@mixin overlay {
+    position: $position-absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@mixin content {
+    position: $position-absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: $text-align-center;
+    color: #fff;}
+
+@mixin h1img {
+    font-size: 46px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+@mixin pimg{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
